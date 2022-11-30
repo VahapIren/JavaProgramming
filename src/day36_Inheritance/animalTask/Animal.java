@@ -6,7 +6,7 @@ public class Animal {
     public int age;
     public String size,color;
 
-    public void setInfo(String name, String breed, char gender, int age, String size, String color) {
+    public Animal(String name, String breed, char gender, int age, String size, String color) {
         this.name = name;
         this.breed = breed;
         this.gender = gender;
