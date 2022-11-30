@@ -4,6 +4,7 @@ public class ArraysIntro {
     public static void main(String[] args) {
 
 one();
+two();
     }
     public static void one(){
         int[] numbers={1,2,3,4,5,6,7,89,9,10};
@@ -16,6 +17,12 @@ one();
         }
         System.out.println(even);
         System.out.println(odd);
+    }
+    public static void two(){
+        int[] numbers={1,2,3,4,5,6,7,89,9,10};
+        for (int i = numbers.length-1; i >=0 ; i++) {
+
+        }
     }
 
 
