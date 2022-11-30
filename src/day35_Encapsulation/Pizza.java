@@ -12,7 +12,7 @@ public class Pizza {
     public void setSize(String size) {
         if (!(size.equalsIgnoreCase("small")||size.equalsIgnoreCase("medium")
                 ||size.equalsIgnoreCase("large"))){
-            System.out.println("Invalid entry");
+            System.out.println("Invalid size entry");
             return;
         }
         this.size = size;
