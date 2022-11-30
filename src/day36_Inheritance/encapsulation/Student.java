@@ -1,4 +1,4 @@
-package day36_Inheritance;
+package day36_Inheritance.encapsulation;
 
 public class Student {
 
@@ -12,12 +12,12 @@ public class Student {
     }
     private int getAge(){ return age; }
     public void setName(String name){
-        if (age<5||age>90){
-            return;
-        }
         this.name=name;
     }
     public void setAge(int age){
+        if (age<5||age>90){
+            return;
+        }
         this.age=age;
     }
 
