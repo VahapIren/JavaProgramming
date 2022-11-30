@@ -19,10 +19,13 @@ public class Zoo {
         cat.move();
         cat.scratch();
         System.out.println(cat);
-
+/*
         Tiger tiger =new Tiger("Sher","Bengal",'F',4,"Large","red");
         tiger.swim();
-        System.out.println(tiger);
+        System.out.println(tiger);*/
+
+        Fish fish=new Fish("Max","Japon",'M',3,"Small","orange");
+        fish.breed();
 
 
 
