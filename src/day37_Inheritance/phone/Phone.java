@@ -33,7 +33,7 @@ public class Phone {
                 ", size='" + size + '\'' +
                 ", price= $" + price +
                 ", color='" + color + '\'' +
-                ", has Bettery='" + hasBattery + '\'' +
+                ", has Battery='" + hasBattery + '\'' +
                 '}';
     }
 }
