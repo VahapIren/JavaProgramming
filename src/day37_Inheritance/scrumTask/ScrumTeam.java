@@ -37,5 +37,13 @@ public class ScrumTeam {
         developers.removeIf(p->p.id==id);
     }
 
-
+    public String toString() {
+        return "ScrumTeam{" +
+                "PO=" + PO.name +
+                ", BA=" + BA.name +
+                ", SM=" + SM.name +
+                ", numbers of testers=" + testers.size() +
+                ", numbers of developers=" + developers.size() +
+                '}';
+    }
 }
