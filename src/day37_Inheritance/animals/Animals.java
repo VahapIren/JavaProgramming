@@ -1,13 +1,14 @@
-package day37_Inheritance.animalTask;
+package day37_Inheritance.animals;
 
-public class Animal {
+public class Animals {
 
-    public String name,breed;
+    public String name, breed;
     public char gender;
     public int age;
-    public String size,color;
+    public String size;
+    public String color;
 
-    public Animal(String name, String breed, char gender, int age, String size, String color) {
+    public Animals(String name, String breed, char gender, int age, String size, String color) {
         this.name = name;
         this.breed = breed;
         this.gender = gender;
@@ -19,18 +20,21 @@ public class Animal {
     public void eat(){
         System.out.println(name+" is eating");
     }
+
     public void drink(){
-        System.out.println(name+" is drinking");
+        System.out.println(name+ " is drinking");
     }
-    public void move(){
-        System.out.println(name+" is moving");
+
+    public void  move(){
+        System.out.println(name+ " is moving");
     }
+
     public void sleep(){
-        System.out.println(name+" is sleeping");
+        System.out.println(name+ " is sleeping");
     }
 
     public String toString() {
-        return "Animal{" +
+        return "Animals{" +
                 "name='" + name + '\'' +
                 ", breed='" + breed + '\'' +
                 ", gender=" + gender +
