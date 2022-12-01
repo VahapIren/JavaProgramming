@@ -19,7 +19,21 @@ public class Phone {
     static {
         hasBattery=true;
     }
+    public void call(long phoneNumber){
+        System.out.println(brand+" "+model+" is calling "+phoneNumber);
+    }
+    public void text(long phoneNumber){
+        System.out.println(brand+" "+model+" is texting "+phoneNumber);
+    }
 
-
-
+    public String toString() {
+        return "Phone{" +
+                "brand='" + brand + '\'' +
+                ", model='" + model + '\'' +
+                ", size='" + size + '\'' +
+                ", price= $" + price +
+                ", color='" + color + '\'' +
+                ", has Bettery='" + hasBattery + '\'' +
+                '}';
+    }
 }
