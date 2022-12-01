@@ -16,7 +16,7 @@ public class Server {
 
 
     public String toString() {
-        String result;
+        String result="";
         if (fullTime)
             result="full-time";
         else

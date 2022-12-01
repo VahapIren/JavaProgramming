@@ -21,7 +21,7 @@ public class Chef {
     }
 
     public String toString() {
-        String result;
+        String result="";
         if (fullTime)
             result="full-time";
         else

@@ -22,9 +22,14 @@ public class Restaurant {
         servers.addAll(Arrays.asList(server));
     }
     public void hireChef(Chef chef){
+        for (Chef each : chefs) {
+            if (chef.employeeID==each.employeeID)
+                return;
+        }
         chefs.add(chef);
     }
     public void hireChef(Chef[] chef){
+
         chefs.addAll(Arrays.asList(chef));
     }
     public void terminateChef(int employeeID){

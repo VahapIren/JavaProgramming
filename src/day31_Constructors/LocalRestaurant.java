@@ -21,14 +21,19 @@ public class LocalRestaurant {
         rest1.hireChef(chef);
 
         System.out.println(rest1.toString());
+        System.out.println("-------------------------------");
 
         rest1.terminateChef(125);
 
         System.out.println(rest1.toString());
+        System.out.println("-------------------------------");
 
         rest1.hireChef(chef3);
 
         System.out.println(rest1.toString());
+
+        rest1.terminateChef(128);
+        System.out.println(rest1);
 
         System.out.println("server3.employeeID = " + server3.employeeID);
         server3.cleanTable();
