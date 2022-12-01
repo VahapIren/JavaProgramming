@@ -23,6 +23,12 @@ public class PhoneShop {
         nokia1.call(911);
         nokia1.text(12343234);
         nokia1.selfDefense();
+        System.out.println("----------------------------");
+
+        System.out.println(IPhone.hasBattery);
+        System.out.println(Samsung.hasBattery);
+        System.out.println(Nokia.hasBattery);
+        System.out.println(iPhone1.hasBattery);
 
     }
 }
