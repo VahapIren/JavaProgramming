@@ -38,7 +38,6 @@ public class Person {
         System.out.println(name+" ia drinking "+drink);
     }
 
-    @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
