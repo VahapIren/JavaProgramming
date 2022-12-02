@@ -13,7 +13,7 @@ public class MyScrumTeam {
         Tester[] testers= {tester2,tester3,tester4};
 
         Developer developer1=new Developer("Olga",22,"Java Developer",125000);
-        Developer developer2=new Developer("Aygun",39,"Java Master",185000);
+        Developer developer2=new Developer("Olga",22,"Java Developer",125000);
         Developer developer3=new Developer("Tunc",28,"Software Developer",135000);
         Developer developer4=new Developer("Sinem",13,"Senior Developer",200000);
 
