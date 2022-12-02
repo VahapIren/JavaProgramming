@@ -38,7 +38,7 @@ public class Credentials {
                 r4=true;
             }
         }
-        boolean isStrong=r1&r2&r3&r4;
+        boolean isStrong=r1&&r2&&r3&&r4;
         return isStrong;
     }
 
