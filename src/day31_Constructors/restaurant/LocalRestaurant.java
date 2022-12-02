@@ -1,7 +1,4 @@
-package day31_Constructors;
-
-import java.util.ArrayList;
-import java.util.Arrays;
+package day31_Constructors.restaurant;
 
 public class LocalRestaurant {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package day31_Constructors;
+package day31_Constructors.restaurant;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -6,8 +6,8 @@ import java.util.Arrays;
 public class Restaurant {
     public String owner,location;
     public int numbersOfStars;
-    public ArrayList<Server > servers=new ArrayList<>();
-    public ArrayList<Chef > chefs=new ArrayList<>();
+    public ArrayList<Server> servers=new ArrayList<>();
+    public ArrayList<Chef> chefs=new ArrayList<>();
 
     public Restaurant(String owner, String location, int numbersOfStars) {
         this.owner = owner;

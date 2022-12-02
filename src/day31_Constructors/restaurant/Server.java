@@ -1,24 +1,19 @@
-package day31_Constructors;
+package day31_Constructors.restaurant;
 
-public class Chef {
+public class Server {
+
     public String name;
     public int employeeID;
     public double hourlyRate;
     public boolean fullTime;
 
-    public Chef(String name, int employeeID, double hourlyRate, boolean fullTime) {
+    public Server(String name, int employeeID, double hourlyRate, boolean fullTime) {
         this.name = name;
         this.employeeID = employeeID;
         this.hourlyRate = hourlyRate;
         this.fullTime = fullTime;
     }
 
-    public void makeOrder(){
-        System.out.println(name+" is making an order");
-    }
-    public void washDishes(){
-        System.out.println(name+" is washing dishes");
-    }
 
     public String toString() {
         String result="";
@@ -26,11 +21,21 @@ public class Chef {
             result="full-time";
         else
             result="part-time";
-        return "Chef{" +
+        return "Server{" +
                 "name='" + name + '\'' +
                 ", employeeID=" + employeeID +
                 ", hourlyRate=" + hourlyRate +
-                ", fullTime status=" + result +
+                ", fullTime status =" + result +
                 '}';
     }
+
+    public void takeOrder(){
+        System.out.println(name+" is taking an order");
+    }
+    public void cleanTable(){
+        System.out.println(name+" is cleaning the table");
+    }
+
+
+
 }
