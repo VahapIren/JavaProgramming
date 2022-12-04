@@ -29,7 +29,6 @@ public class EmployeeObject {
 
         System.out.println("--------------------------------------");
 
-
         System.out.println(tester1.getName()+" : "+tester1.getSalary());
 
         tester1.work();
