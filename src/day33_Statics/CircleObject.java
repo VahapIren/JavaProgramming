@@ -7,6 +7,7 @@ public class CircleObject {
         System.out.println(circle1);
 
         Circle.printPi();
+        circle1.printPi();
 
     }
 }
