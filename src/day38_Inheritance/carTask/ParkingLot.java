@@ -1,9 +1,5 @@
 package day38_Inheritance.carTask;
 
-import day38_Inheritance.shapeTask.Circle;
-import day38_Inheritance.shapeTask.Rectangle;
-import day38_Inheritance.shapeTask.Square;
-
 public class ParkingLot {
     public static void main(String[] args) {
 
